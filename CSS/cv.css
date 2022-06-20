@@ -1,0 +1,144 @@
+.parallax-cv{
+    z-index: -1;
+    background-image: url(../IMG/parallax-cv.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#titre-cv{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+}
+@media(max-width: 340px){
+    #titre-cv{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+.cv{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.entete-cv{
+    margin-bottom: 1vh;
+}
+.photo-cv{
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nom-cv{
+    margin: 0%;
+}
+.contact-cv{
+    margin-top: 20px;
+}
+.contact-div-cv{
+    display: flex;
+}
+.contact-div-cv p{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.contact-div-cv a{
+    color: #1172e0;
+}
+.logo-cv{
+    width: 2vh;
+    margin-right: 1%;
+} 
+
+.pres-cv{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.autre-cv{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.cv-qual-titre{
+    margin-bottom: 5%;
+}
+.cv-qual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.autre-cv p{
+    margin: 0;
+    text-align: center;
+}
+.cv-qual-card{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+    border-radius: 3px;
+    background-color: #80A5B6;;
+    color: white;
+}
+@media(max-width: 1300px){
+    .cv-qual-card{
+        width: 150%;
+    }
+}
+.cv-logo-dev{
+    width: 4em;
+    margin-bottom: 10px;
+}
+.cv-comp-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.langues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.langues img{
+    width: 6em;
+    margin-right: 1em;
+}
+.langues p{
+    width: 135px;
+}
+/*responsive border*/
+@media (min-width: 781px){
+    .autre-centre-cv{
+        border-right: 2px solid rgba(41, 8, 8, 0.125);
+        border-left: 2px solid rgba(41, 8, 8, 0.125);
+    }
+    .exp-cv{
+        border-right: 2px solid rgba(41, 8, 8, 0.125);
+    }
+    .propos-cv{
+        border-bottom: 2px solid rgba(41, 8, 8, 0.125);
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 780px){
+    .autre-cv{
+        border-top: 2px solid rgba(41, 8, 8, 0.125);
+        margin-bottom: 10px;
+    }
+    .autre-cv h4{
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    .cv-comp-logo{
+        width: 50%;
+    }
+}

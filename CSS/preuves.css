@@ -1,0 +1,47 @@
+.parallax-preuves{
+    z-index: -1;
+    background-image: url(../IMG/parallax_preuves.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-preuves{
+    border-top: 2px solid rgba(41, 8, 8, 0.125);
+    justify-content: center;
+}
+.preuve-IHM{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.card img{
+    max-width: 420px;
+}
+.text_preuve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.formation{
+    width: 50%;
+}
+.modele{
+    width: 75%;
+}
+.pdf{
+    max-height: 75%/*573px;*/
+}
+.ano{
+    max-height: 90%;
+}
